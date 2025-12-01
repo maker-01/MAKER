@@ -1,0 +1,23 @@
+{
+  "name": "maker-bot",
+  "version": "1.0.0",
+  "description": "A legitimate WhatsApp assistant bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.2",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["whatsapp", "bot", "assistant", "productivity"],
+  "author": "Your Name",
+  "license": "MIT"
+}
